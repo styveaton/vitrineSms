@@ -1,0 +1,72 @@
+{
+  "name": "sms-gessiia",
+  "version": "0.0.1",
+  "description": "SMS GESSIIA est une plateforme SMS Marketing professionnel.Elle est simple, complete et facile à utiliser pour satisfaire tous types de besoins. Démarrez votre campagne marketing en 2 étapes seulement",
+  "productName": "SMS GESSIIA",
+  "author": "Mouafo Takoumbo",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@vuelidate/core": "^2.0.0-alpha.40",
+    "@vuelidate/validators": "^2.0.0-alpha.28",
+    "axios": "^0.21.4",
+    "core-js": "^3.6.5",
+    "fs": "^0.0.1-security",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "papaparse": "^5.3.2",
+    "quasar": "^2.2.11",
+    "redux": "^4.2.0",
+    "vue": "^3.0.0",
+    "vue-html2pdf": "^1.8.0",
+    "vue-i18n": "^9.1.10",
+    "vue-papa-parse": "^3.0.4",
+    "vue-router": "^4.0.0",
+    "vuelidate": "^0.7.7",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app": "^3.3.3",
+    "@types/node": "^12.20.48",
+    "@types/papaparse": "^5.3.2",
+    "@types/vue-i18n": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "bootstrap": "^4.0.0-beta",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.5.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}

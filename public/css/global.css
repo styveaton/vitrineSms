@@ -1,0 +1,506 @@
+
+/*----------------------------------------------
+Start VIEWS search page
+------------------------------------------------ */
+.panelFooter{
+	top: 30px;
+	left: 16px;
+	position: relative;
+	
+}
+
+/*----------------------------------------------
+End VIEWS search page
+------------------------------------------------ */
+.newContact label{
+	display: block;
+}
+.newContact input[type=text]{
+	border-bottom:1px solid #999;
+}
+/*-----page groupe-----*/
+.group
+{
+}
+
+.formgroup{
+	border: 1px solid rgba(90,90,90,0.7);
+}
+/*-----/page groupe-----*/
+
+/*General*/
+input{
+	background-color: rgba(95,95,95,0.6);
+}
+header{
+	height: auto;
+}
+body{
+	background-color: #f8f8f8;
+}
+.maner_menu h2{
+	background: red;
+	color: yellow;
+}
+.dropdown-menu li a{
+		font-size: 1.1em;
+		height: 40px;
+		line-height: 40px;
+		transition:all 0.3s;
+	}
+.dropdown-menu li a:hover{
+		font-size: 1.14em;
+		height: 40px;
+		line-height: 40px;
+		transition:all 0.3;
+	}
+.container-fluid {
+  width: 100%;
+  max-width: 95%;
+  border-radius: 5px;
+  margin-top: 2%;
+  padding: 5px 0 0 0;
+  box-shadow: black 0px -3px 9px;
+}
+.panel .panel-heading{
+	background-color: rgba(51, 51, 51, 1);
+	color: rgb(220,220,220);
+	border-radius: 0px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+button .glyphicon{
+	color: #fff;
+	font-size: 1.2em;
+}
+.optionProfil div button{
+	height: 45px;
+
+}
+
+/*Info client*/
+a{
+	color: #250040;
+	font-weight: 4;
+}
+.donneeUser{
+}
+.titleInfoUser{
+
+}
+.navbar-header .smBtn:hover{
+	background-color: rgba(0,68,125,0.6);
+}
+
+.navbar-header .smBtn{
+	background-color: rgba(0,68,125,0.9);
+}
+.navbar-header>button .icon-bar{
+	width: 18px;
+	height: 1.7px;
+	border-radius: 1px;
+	border: solid 1.7px #999;
+}
+.navbar-header>button:hover .icon-bar{
+	border: solid 1.7px #fff;
+}
+.btn-toggle{
+	visibility: hidden;
+}
+/*\General*/
+
+/*
+Page 404
+*/
+.head404{
+	width: 100%;
+	height: 10%;
+	padding: 20% 0 20% 0;
+	background-image: url("../img/404/404.gif");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #022341;
+}
+.head404 img{
+}
+
+.bodyLeft404 li{
+	list-style: none;
+	clear: both;
+}
+.body404{
+	clear: both;
+	margin: 0 0 5% 0;
+}
+
+.sct1{
+	width: 1500px;
+	height: 100%;
+	border: 1px solid blue;
+}
+
+/*
+Fin Page 404
+*/
+
+.optionsUser{
+	background-color: red;
+
+}
+
+.clientDrop{
+	text-align: center;
+	padding: 8px 1px 8px 1px;
+	margin-top: 0px;
+	background-color: rgba(230,230,230,1);
+	color: #333;
+}
+
+div>.UserHeader{
+	height: auto;
+	padding: 10px 0 10px 0;
+	/*background-color: rgba(0,68,125,0.9);*/
+	background-color: #250040;
+	color: #fff;
+	margin-bottom: 25px;
+}
+div>.UserHeader>div{
+	margin: auto;
+	text-indent: 5px;
+
+}
+
+
+.dropdown-menu{
+	background-color: rgba(230,230,230,1);
+	border-radius:  0px 0px 4px 4px;
+  	margin: 0px 0 0;
+ 	padding: 0px 0;
+
+}
+.panel-heading{
+		width: 100%;
+
+	}
+.custom-search-form{
+	position: absolute;
+	left: 67%;
+	top: 15%;
+}
+form .infocountSMS{
+	float: right;
+	color: rgba(100,100,100,0.7);
+}
+div .destText textarea:focus {
+  outline: 0;
+  max-height: 80px;
+  border-color: #003ac9;
+  transition: border-color .25s ease, box-shadow .25s ease,max-height .3s;
+
+}
+
+div .destText textarea {
+  height: 80px;
+  max-height: 70px;
+  min-height: 40px;
+  font-size: 1.2em;
+  display: block;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: hidden;
+  transition: border-color .25s ease, box-shadow .25s ease,max-height .5s;
+}
+
+div .smsText textarea:focus{
+	outline: 0;
+  	max-height: 155px;
+  	border-color: #003ac9;
+  	transition: border-color .25s ease, box-shadow .25s ease,max-height .3s;
+}
+
+div .smsText textarea{
+  height: 155px;
+  max-height: 150px;
+  min-height: 120px;
+  font-size: 1em;
+  display: block;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: hidden;
+  transition: border-color .25s ease, box-shadow .25s ease,max-height .5s;
+}
+
+.BtnSms{
+	margin-bottom: 2%;
+}
+.btnStyle{
+	margin: 2% 0 3% 0;
+}
+/*
+Acceuil.php, dans la zone son corps
+*/
+.panel,.smStatBtn{
+	border-radius: 0px;
+}
+div>.UserHeader .smInfoUser{
+	text-align: right;
+}
+
+/*
+Acceuil.php, dans la zone son corps
+*/
+/*Footer*/
+footer .Sm_footer{
+	background-color: #333333;
+}
+/*\Footer*/
+@media (max-width: 300px) {
+   .custom-search-form{
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 5px 0 5px 0;
+	}
+	.tbHeader h1{
+		font-size: 1em;
+		margin-top:8px;
+	}
+	.panel-heading h3{
+		font-size: 1em;
+		color: #333;
+
+	}
+
+	nav .navbar-right{
+		margin-left: 25px;
+	}
+	nav .navbar-right li{
+		display: inline;
+		font-size: 50px;
+	}
+	.navbar-brand{
+		font-size: 1em;
+
+	}
+	.navbar-toggle .icon-bar{
+	  width: 18px;
+	  height: 1.7px;
+	  border-radius: 1px;
+	  border: solid 1.7px;
+	}
+	.navbar-toggle {
+	  padding: 4.5px 5px;
+	  border-radius: 3px;
+	}
+	div>.UserHeader{
+	padding: 10px 0 10px 0;
+	font-size: 1em;
+	margin-bottom: 15px;
+
+	}
+	div>.UserHeader h3{
+	font-size: 1em;
+	}
+	div>.UserHeader>h3{
+		padding: 0px;
+	}
+	div>.UserHeader div{
+	text-align: right;
+	}
+
+}
+
+@media (max-width: 768px) {
+   .custom-search-form{
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 5px 0 5px 0;
+	}
+	.tbHeader h1{
+		font-size: 1.5em;
+		margin-top:10px;
+	}
+	.panel-heading h3{
+		font-size: 1em;
+
+	}
+
+	nav .navbar-right{
+		margin-left: 25px;
+	}
+	.navbar-brand{
+		font-size: 1em;
+
+	}
+	.navbar-toggle .icon-bar {
+	  width: 18px;
+	  height: 1.7px;
+	  border-radius: 1px;
+	  border: solid 1.7px;
+	}
+	.navbar-toggle {
+	  padding: 4.5px 5px;
+	  border-radius: 3px;
+	}
+	div>.UserHeader div{
+	text-align: right;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1224px) {
+   .custom-search-form{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	margin: 5px 0 5px 0;
+	}
+	.tbHeader h1{
+		font-size: 1.8em;
+		margin-top:10px;
+	}
+	.panel-heading h3{
+		font-size: 1.5em;
+
+	}
+	.dropdown-menu li a{
+		margin-left: 50px;
+	}
+
+	.dropdown-menu1 li a{
+		margin-left: 150px;
+	}
+
+}
+
+.print_btn{
+	
+	margin-top: 1em;
+	display: block;
+}
+
+/* Style pour menu multicompte*/
+th{
+	text-align: center;
+}
+.panel-heading{
+	text-align: center;
+}
+
+td .fa{
+	font-size: 17px;
+}
+
+.navbar .dropdown-toggle, .navbar .dropdown-menu a, .dropdown-menu > .dropdown-item {
+    cursor: pointer;
+}
+
+.navbar-nav .nav-item a{
+	text-decoration: none;
+
+}
+
+.navbar-nav > .nav-item{
+	display: inline-block;
+	font-size:1em;
+	border: 1px solid #007eff;
+	font-weight: 500;
+	background: #007eff;
+	color: rgba(240,240,240,0.9);
+	width: 200px;
+	min-width: 160px;
+	max-width: 95%;
+	margin-left: 3px;
+	padding: 7px;
+	text-align: left;
+	position: relative;
+	top: -75px;
+	left: -73.8px;
+
+}
+.nav-item a{
+	color: #fff;
+
+}
+.nav-item:after{
+	content: "";
+}
+.dropdown-menu{
+	width: 350px;
+	min-width: 220px;
+	max-width: 98%;
+	background: #007eff;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+
+.dropdown-menu1{
+	background: rgb(230,230,230);
+	text-overflow: ellipsis;
+}
+
+.close{
+	color: red;
+}
+.dropdown-menu > .dropdown-item:hover > .btn{
+	color: #37F;
+	font-weight: 600;
+	width: 100%;
+	text-align: left;
+	transition: font-weight .2s;
+}
+
+.dropdown-menu > .dropdown-item > .btn{
+	background: transparent;
+	border: 0px;
+	font-size: 14px;
+	color: #ffc;
+	font-weight: 400;
+	transition: font-weight .2s;
+}
+
+.navbar .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
+
+/* style for search */
+
+.global-content{
+	visibility: hidden;
+}
+
+/*modal*/
+.dropdown .dropdown-menu  .dropdown-user  .optionsUser{
+	background-color: pink;
+}

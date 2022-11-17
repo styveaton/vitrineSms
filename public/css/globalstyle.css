@@ -1,0 +1,468 @@
+/*----------------------------------------------
+Start Global page
+------------------------------------------------ */
+
+#section1{
+background-color:#fff; 
+}
+.section-content{
+/*border:1px solid #F00;*/
+  width:100%;
+  max-width: 90%;
+  min-width: 70%;
+  margin:0 auto;
+  text-align:center;
+}
+h1{
+  margin:0;
+  color:#333;
+}
+h1 i.fa{
+font-size:3em;
+color:#FFF;
+transition:all 0.3s ease-in-out;
+}
+i.fa:hover{
+color:#f00;
+cursor:pointer;
+transform:scale(1.2) rotate(10deg);
+}  
+#section2{
+ /* background-color: #00478e;*/
+background-color: #b2dddf;
+background-size: 800px;
+background-image: url('../img/logo/logow.png');
+background-position: left;
+background-repeat: no-repeat;
+color: #fff;
+font-weight: normal;
+}
+
+#section3{
+background-color:#333; 
+background-size: 800px;
+background-image: url('../img/logo/logow.png');
+background-position: right;
+background-repeat: no-repeat;
+}
+.slide{
+background-size:cover;
+  background-position:center;
+}  
+#slide1{
+background-image:url();
+}  
+#section4{
+background-color:#999; 
+}
+#fp-nav ul li a span {
+  background-color: #f00;
+}
+
+.fp-slidesNav ul li a span {
+  background-color: #fff;
+}
+
+
+/*Button navigotion of full page*/
+.navbar{
+  position: relative;
+  min-height: 60px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.navbar nav li{
+  height: 60px;
+  background-color: #faf;
+}
+nav>ul>li img{
+  width: 90px;
+  position: relative;
+  top: -20px;
+  box-shadow: rgba(150,150,150,0.5) 3px 7px 5px;
+
+}
+nav>ul>li strong{
+  font-size: 4em;
+  color: #008985;
+  text-shadow: rgba(150,150,150,0.5) 3px 7px 5px;
+}
+
+/*Button navigotion of full page*/
+/*sm navigation*/
+.top-nav{
+  height: 60px;
+  width: 100%;
+  min-width: 150px;
+  background-color: #b50046;
+  position: fixed;
+  z-index: 1500;
+}
+.top-nav nav ul li a{
+  height: 60px;  
+  width: 100%;
+  min-width: 100px;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 12px;
+  font-family: ;
+  color: #fff;
+  background-color: rgba(200,200,200,0.5);
+}
+.top-nav nav ul li a:hover{
+  color: #b50046;
+  transition: 0.3s;
+}
+.top-container{
+}
+.info{
+  width: ;
+  padding-bottom: 10px;
+  background-color: #fff;
+  color: #333;
+}
+.navinfo{
+  position: relative;
+  top: 8px;
+  font-size: 1.3em;
+}
+/*/sm navigation*/
+/*----------------------------------------------
+End Global page
+------------------------------------------------ */
+
+/*----------------------------------------------
+Start Content  Global page
+------------------------------------------------ */
+/***** Section3*******/
+/* Start Style Global */
+body { font-family: 'Open Sans', sans-serif }
+
+.main-header { color: #f2545f; font-weight: bold }
+
+.overlay { position: absolute; background-color: rgba(0, 0, 0, .5) }
+
+.loading { position: fixed; background-color: #222; z-index: 99999 }
+
+.divider { position: relative; text-align: center; margin-top: 10px }
+
+.divider::before, .divider::after { content: 'ـــــــــــــــــــــــــــــــــ'; position: relative; bottom: 5px; color: #e6e8ea }
+
+.divider .fa { color: #e6e8ea }
+/* End Style Global */
+
+/* Start Style FAQ */
+.faq { padding: 80px 0 ;}
+
+.faq .row .card .card-header { padding: .3rem 1rem; cursor: pointer }
+
+.faq .row .card .card-header .btn-link {  color: #666666;; font-weight: bold; letter-spacing: 1px; cursor: pointer }
+
+.faq .row .card .card-header .btn-link:hover { text-decoration: none }
+
+.faq .row .card .card-header h5 button[data-toggle="collapse"].collapsed::after
+ { content: "\f067"; font-family: 'FontAwesome', serif; display: block;
+    position: absolute; top: 10px; right: -5px; font-size: 13px; color: #666666 }
+
+.faq .row .card .card-header h5 button[data-toggle="collapse"]::after
+{ content: "\f068"; font-family: 'FontAwesome', serif; display: block; position: absolute;
+    top: 10px; right: -5px; font-size: 13px; color: #666666 }
+
+.faq .row .card .card-body p { text-align: justify; text-transform: none; color: #888; font-size: 15px }
+/* End Style FAQ */
+
+
+@-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) } }
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+}
+/* End Spinner */
+/* small tablet*/
+@media (max-width: 768px) {
+    .top-nav nav ul li a{
+    }
+    nav>ul>li img{
+      width: 40px;
+      position: relative;
+      top: -10px;
+      box-shadow: rgba(150,150,150,0.5) 1px 4px 2px;
+
+    }
+    nav>ul>li strong{
+      font-size: 2em;
+      color: #008985;
+      text-shadow: rgba(150,150,150,0.5) 1px 4px 2px;
+    }
+  }
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Start Slider */
+    #mySlider .main-header { font-size: 17px }
+
+    #mySlider .carousel-inner .carousel-item .carousel-caption p { width: 100%; font-size: 13px }
+
+    #mySlider .carousel-inner .carousel-item .carousel-caption .mr-4 { margin-right: .5rem!important }
+        /* End Slider */
+
+   
+
+    /* Start FAQ */
+    .faq .main-header { font-size: 17px }
+
+    .faq .row .card .card-header .btn-link { font-size: 12px!important }
+
+    .faq .row .card .card-header { padding-left: .1rem !important }
+
+    .faq .row .card .card-body p { font-size: 12px }
+
+    .faq .row .card .card-header h5 button[data-toggle="collapse"]::after,
+    .faq .row .card .card-header h5 button[data-toggle="collapse"].collapsed::after { font-size: 10px }
+    /* End FAQ */
+
+}
+/******End Section******/
+
+/**/
+
+.sct1{
+  background-color:  #b2dddf;
+  color: #333;
+  margin-bottom: 3%;
+}
+.sct2{
+  background-color: #b50046;
+  margin-bottom: 2%;
+  color: #fff;
+}
+.sctform{
+  padding: 1% 0 1% 0;
+  width: 100%;
+}
+.sctform input[type='text']{
+  height: 40px;
+  margin-bottom: 3%;
+}
+.sctform form button{
+  width: 100%;
+  height: 40px;
+  border:none;
+  color: #fff;
+  font-size: 1.4em; 
+  background-color: #b50046;
+}
+.sctform form button:hover{
+  background-color: #d60254;
+  transition: all 0.3s;
+}
+/**/
+/*----------------------------------------------
+Start sign or login
+------------------------------------------------ */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #b5deff;
+  transition: .5s ease;
+}
+a:hover {
+  color: #4fb2ff;
+  text-decoration: none;
+}
+
+.form {
+  /*background: rgba(19, 35, 47, 0.9);*/
+  background-color: #fff;
+  padding: 40px;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0px 0;
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 1.4em;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.tab-group li a:hover {
+  background: #233879;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background: #003ac9;
+  color: #ffffff;
+}
+
+.tab-content > div:last-child {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+label {
+  position: absolute;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  left: 13px;
+  top: -2px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 1.2em;
+}
+label .req {
+  margin: 2px;
+  color: rgba(0,233,255,0.8);
+}
+
+label.active {
+  -webkit-transform: translateY(-19px);
+  left: 0px;
+  font-size: 0.9em;
+}
+label.active .req {
+  opacity: 0;
+}
+
+label.highlight {
+  color: #999;
+}
+
+input{
+  font-size: 1.2em;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 7px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #999;
+  border-radius: 0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus{
+  outline: 0;
+  border-color: #003ac9;
+}
+
+textarea:focus {
+  outline: 0;
+  max-height: 149px;
+  border-color: #003ac9;
+  transition: border-color .25s ease, box-shadow .25s ease,max-height .3s;
+
+}
+
+textarea {
+  height: 150px;
+  max-height: 100px;
+  min-height: 100px;
+  font-size: 1.2em;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: hidden;
+  transition: border-color .25s ease, box-shadow .25s ease,max-height .5s;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #233879;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+  background: #003ac9;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+
+
+/*----------------------------------------------
+End sign or login
+------------------------------------------------ */
+
+/*----------------------------------------------
+End Content Global page
+------------------------------------------------ */
+
+

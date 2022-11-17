@@ -1,0 +1,7 @@
+#Ignore les fichier de configuration
+#connexion_sql.php
+#signletter.php
+#config_connect.php
+#print-solde-user.php
+#toutes_les_consommations.php
+#End
